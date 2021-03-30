@@ -1,8 +1,14 @@
 import path from 'path'
 import fs from 'fs'
+import { SlideLayout } from '../../layouts/SlideLayout'
 
-export default function slideShow({ currentSlide, filename }) {
-  return <div></div>
+export default function slideShow({ totalSlidePages, currentSlide, filename }) {
+  return (
+    <SlideLayout>
+      <h1>{totalSlidePages}</h1>
+      <p>{currentSlide}</p>
+    </SlideLayout>
+  )
 }
 
 export async function getStaticProps({ params }) {

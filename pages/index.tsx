@@ -1,9 +1,13 @@
-import Head from "next/head"
+import Head from 'next/head'
+import { useRouter } from 'next/router'
+import { useEffect } from 'react'
 
 export default function Home() {
-  return (
-    <div>
-      <h2>Hello World!</h2>
-    </div>
-  )
+  const router = useRouter()
+
+  useEffect(() => {
+    router.replace('/slides/1')
+  }, [])
+
+  return <div></div>
 }
