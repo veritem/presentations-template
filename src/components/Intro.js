@@ -21,7 +21,7 @@ export default function Intro() {
         }}
       >
         <a
-          href="veritem.me"
+          href="https://veritem.me/"
           target="__blank"
           style={{
             textDecoration: "none",
