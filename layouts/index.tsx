@@ -14,13 +14,15 @@ export function SlideLayout({ children }) {
           rel="stylesheet"
         />
       </Head>
-      <Header
-        name={siteConfig.name}
-        title={siteConfig.title}
-        date={siteConfig.date}
-        url={siteConfig.author.url}
-      />
-      <div>{children}</div>
+      <div>
+        <Header
+          name={siteConfig.name}
+          title={siteConfig.title}
+          date={siteConfig.date}
+          url={siteConfig.author.url}
+        />
+        <div>{children}</div>
+      </div>
     </>
   )
 }
