@@ -4,9 +4,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"/>
 </Head>
 
-import { themes } from "mdx-deck"
+import { themes,Image } from "mdx-deck"
 import Layout from "./components/Layout.js"
 import Intro from "./components/Intro.js"
+import Footer from "./components/Footer.js"
 
 export const theme = themes.poppins
 
@@ -21,7 +22,19 @@ export const theme = themes.poppins
 
 ---
 
-## This is my deck
+
+<Layout>
+
+## This is my desk
+
+
+<Image src='https://source.unsplash.com/random/768x2048?brooklyn' style={{width:"50vh",height:"50vh"}}/>
+
+<Footer>
+<span>Hello</span>
+</Footer>
+
+</Layout>
 
 ---
 

@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "mdx-deck src/presentation.mdx"
+    "start": "mdx-deck src/presentation.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "help": "mdx-deck"
   },
   "repository": {
     "type": "git",

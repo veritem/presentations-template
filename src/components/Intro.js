@@ -26,6 +26,7 @@ export default function Intro() {
           style={{
             textDecoration: "none",
             color: "background-color: rgba(59, 130, 246,1);",
+            fontSize: "1.3rem",
           }}
         >
           www.veritem.me
