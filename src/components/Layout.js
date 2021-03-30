@@ -1,12 +1,9 @@
-import React from 'react'
+import React from "react";
+// import Footer from "./Footer";
 
 export default ({ children }) => (
-  <div
-    style={{
-      width: '100vw',
-      height: '100vh',
-      backgroundColor: 'tomato',
-    }}>
+  <div style={{ backgroundColor: "#050505" }}>
     {children}
+    {/* <Footer /> */}
   </div>
-)
+);

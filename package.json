@@ -22,5 +22,8 @@
   },
   "dependencies": {
     "@mdx-deck/themes": "^4.1.0"
+  },
+  "prettier": {
+    "semi": true
   }
 }
