@@ -1,31 +1,14 @@
 {
-  "name": "presentations",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "mdx-deck src/presentation.mdx",
-    "build": "mdx-deck build src/presentation.mdx",
-    "help": "mdx-deck"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/makuzaverite/presentations.git"
-  },
-  "keywords": [],
-  "author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/makuzaverite/presentations/issues"
-  },
-  "homepage": "https://github.com/makuzaverite/presentations#readme",
-  "devDependencies": {
-    "mdx-deck": "^4.1.1"
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
   },
   "dependencies": {
-    "@mdx-deck/themes": "^4.1.0"
+    "@slidev/cli": "^0.13.4",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
   },
-  "prettier": {
-    "semi": true
-  }
+  "name": "slidev"
 }
