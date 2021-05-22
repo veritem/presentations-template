@@ -2,11 +2,13 @@ lockfileVersion: 5.3
 
 specifiers:
   '@slidev/cli': ^0.13.4
+  '@slidev/theme-apple-basic': ^0.1.3
   '@slidev/theme-default': '*'
   '@slidev/theme-seriph': '*'
 
 dependencies:
   '@slidev/cli': 0.13.4
+  '@slidev/theme-apple-basic': 0.1.3
   '@slidev/theme-default': 0.7.4
   '@slidev/theme-seriph': 0.7.1
 
@@ -166,6 +168,16 @@ packages:
     dependencies:
       '@slidev/types': 0.13.4
       js-yaml: 4.1.0
+    dev: false
+
+  /@slidev/theme-apple-basic/0.1.3:
+    resolution: {integrity: sha512-nKjnXfL9leXEmvPrjhgVSAl2qGDwiklg8O2dU3NqloE/uUv7vC6Pr0mQX+W9248m7K7SiNPz/msh3F9p+CvH7A==}
+    peerDependencies:
+      '@slidev/client': ^0.6.7
+    dependencies:
+      codemirror-theme-vars: 0.1.1
+      prism-theme-vars: 0.2.2
+      theme-vitesse: 0.1.11
     dev: false
 
   /@slidev/theme-default/0.7.4:

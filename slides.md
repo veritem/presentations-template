@@ -10,10 +10,13 @@ class: 'text-center'
 highlighter: shiki
 # some information about the slides, markdown enabled
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  ##  veritem's presentations template
 
-  Learn more at [Sli.dev](https://sli.dev)
+  Check out my site [veritem](https://veritem.me/)
+
+# enable download
+
+download: true
 ---
 
 # Welcome to verite's presentation
@@ -25,7 +28,7 @@ info: |
   </span>
 </div>
 
-<a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
+<a href="https://github.com/makuzaverite/presentations-template" target="_blank" alt="GitHub"
   class="abs-br m-6 text-xl icon-btn opacity-50 !border-none !hover:text-white">
   <carbon-logo-github />
 </a>
@@ -69,6 +72,10 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 </style>
+
+<!--
+These are my notes here and i works
+-->
 
 ---
 
@@ -139,7 +146,7 @@ We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that
 <!-- ./components/Counter.vue -->
 <Counter :count="10" m="t-4" />
 
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
+Check out [the guides](https://sli.dev/builtin/components.html) for here.
 
 </div>
 <div>
@@ -166,7 +173,7 @@ Slidev comes with powerful theming support. Themes are able to provide styles, l
 
 ```yaml
 ---
-theme: default
+theme: seriph
 ---
 ```
 
